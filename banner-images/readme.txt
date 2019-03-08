@@ -1,0 +1,1 @@
+Banner image is the image which is uploaded on the top of the page.
