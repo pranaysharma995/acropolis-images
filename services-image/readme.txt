@@ -1,1 +1,0 @@
-Services image used in the section which is divided in three parts which have detail of all the services.
