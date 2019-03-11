@@ -1,0 +1,1 @@
+this folder include all the images for eCommerce page other than banner, services image and technology solution.

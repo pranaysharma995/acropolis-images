@@ -1,0 +1,1 @@
+this folder includes services image(image which will be included in three section) of all the industries pages.

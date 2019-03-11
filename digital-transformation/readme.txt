@@ -1,0 +1,1 @@
+this folder include all the images for digital transformation page other than banner, services image and our capabilty images.

@@ -1,0 +1,1 @@
+this folder include all the images for quality assurance and testing page other than banner, services image and our capabilty images.

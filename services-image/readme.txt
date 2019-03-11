@@ -1,0 +1,2 @@
+this folder include the images for our services of all the acropolis pages. Our services is that part of page which is divided 
+in three part in which one part have full page while other two have some text heading and description.
