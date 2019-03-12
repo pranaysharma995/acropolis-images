@@ -1,0 +1,26 @@
+{
+  "name": "acropolis-images",
+  "version": "1.0.0",
+  "description": "compress images of acropolis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranaysharma995/acropolis-images.git"
+  },
+  "author": "mohit verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranaysharma995/acropolis-images/issues"
+  },
+  "homepage": "https://github.com/pranaysharma995/acropolis-images#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-svgo": "^2.1.0",
+    "imagemin-guetzli": "^2.0.0",
+    "imagemin-mozjpeg": "^8.0.0"
+  }
+}

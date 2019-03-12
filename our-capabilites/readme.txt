@@ -1,0 +1,1 @@
+This folder include our capability images for all the enterprise services pages(business consulting, managed services etc).
