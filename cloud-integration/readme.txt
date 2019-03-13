@@ -1,0 +1,1 @@
+this folder include all the images for cloud integration page other than banner, services image and our capabilty images.
