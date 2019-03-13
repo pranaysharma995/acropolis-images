@@ -10,14 +10,14 @@ gulp.task("svgo",function()
 })
 gulp.task("jpeg",function()
          {
-    return gulp.src("our-capabilities/*.jpg").pipe(imagemin(
+    return gulp.src("services-image/*.jpg").pipe(imagemin(
     {
         progressive:true
     })).pipe(imagemin([imageminMozjpeg({
         quality:80
-    })])).pipe(gulp.dest("compress/our-capabilities/"));
+    })])).pipe(gulp.dest("compress/services-image/"));
 });
-gulp.task("guetzli",function()
+gulp.task("shristi",function()
          {
     return gulp.src("services-image/*.png").pipe(imagemin([imageminGuetzli({
         quality:85
