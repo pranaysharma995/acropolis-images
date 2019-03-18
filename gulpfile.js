@@ -4,26 +4,22 @@ var svgo=require("gulp-svgo");
 var imageminMozjpeg=require("imagemin-mozjpeg");
 var imageminGuetzli=require("imagemin-guetzli");
 
-gulp.task("svgo",function()
+gulp.task("jpeg",function()
          {
     return gulp.src("services-image/*.svg").pipe(svgo()).pipe(gulp.dest("compress/services-image/"));
 })
 gulp.task("jpeg",function()
-         {
-<<<<<<< HEAD
-    return gulp.src("banner/*.jpg").pipe(imagemin(
-=======
-    return gulp.src("portfolio-images/*.jpeg").pipe(imagemin(
->>>>>>> bbdfdedf219a100defe05e8d280d38544c1cd6e4
-    {
-        progressive:true
-    })).pipe(imagemin([imageminMozjpeg({
-        quality:80
-    })])).pipe(gulp.dest("compress/services-image/"));
+        {
+   return gulp.src("our-capabilites/*.jpg").pipe(imagemin(
+   {
+       progressive:true
+   })).pipe(imagemin([imageminMozjpeg({
+       quality:80
+   })])).pipe(gulp.dest("compress/our-capabilities/"));
 });
 gulp.task("shristi",function()
          {
-    return gulp.src("portfolio-images/*.png").pipe(imagemin([imageminGuetzli({
+    return gulp.src("our-capabilites/*.png").pipe(imagemin([imageminGuetzli({
         quality:85
-    })])).pipe(gulp.dest("compress/portfolio-images/"));
+    })])).pipe(gulp.dest("compress/our-capablities/"));
 })
