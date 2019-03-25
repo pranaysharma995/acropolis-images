@@ -1,1 +1,0 @@
-this folder includes technology solutions image(image which will be included in two section) of all the industries pages.
