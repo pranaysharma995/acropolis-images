@@ -10,16 +10,16 @@ gulp.task("jpeg",function()
 })
 gulp.task("jpeg",function()
         {
-   return gulp.src("services-image/*.jpg").pipe(imagemin(
+   return gulp.src("banner/*.jpg").pipe(imagemin(
    {
        progressive:true
    })).pipe(imagemin([imageminMozjpeg({
        quality:80
-   })])).pipe(gulp.dest("compress/services-image/"));
+   })])).pipe(gulp.dest("compress/banner/"));
 });
 gulp.task("shristi",function()
          {
-    return gulp.src("services-image/*.png").pipe(imagemin([imageminGuetzli({
+    return gulp.src("banner/*.png").pipe(imagemin([imageminGuetzli({
         quality:85
-    })])).pipe(gulp.dest("compress/services-image/"));
+    })])).pipe(gulp.dest("compress/banner/"));
 })
