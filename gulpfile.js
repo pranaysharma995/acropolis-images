@@ -10,7 +10,7 @@ gulp.task("jpeg",function()
 })
 gulp.task("jpeg",function()
         {
-   return gulp.src("career/team-event/*.JPG").pipe(imagemin(
+   return gulp.src("career/team-event/*.jpg").pipe(imagemin(
    {
        progressive:true
    })).pipe(imagemin([imageminMozjpeg({
