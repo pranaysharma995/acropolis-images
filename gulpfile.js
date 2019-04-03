@@ -10,16 +10,16 @@ gulp.task("jpeg",function()
 })
 gulp.task("jpeg",function()
         {
-   return gulp.src("career/team-event/*.jpg").pipe(imagemin(
+   return gulp.src("banner/*.jpeg").pipe(imagemin(
    {
        progressive:true
    })).pipe(imagemin([imageminMozjpeg({
        quality:80
-   })])).pipe(gulp.dest("compress/career/team-event/"));
+   })])).pipe(gulp.dest("compress/banner/"));
 });
 gulp.task("shristi",function()
          {
-    return gulp.src("career/team-event/*.png").pipe(imagemin([imageminGuetzli({
+    return gulp.src("banner/*.png").pipe(imagemin([imageminGuetzli({
         quality:85
-    })])).pipe(gulp.dest("compress/career/team-event/"));
+    })])).pipe(gulp.dest("compress/banner/"));
 })
