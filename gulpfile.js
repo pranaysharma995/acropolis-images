@@ -10,7 +10,7 @@ gulp.task("jpeg",function()
 })
 gulp.task("jpeg",function()
         {
-   return gulp.src("banner/*.jpg").pipe(imagemin(
+   return gulp.src("banner/*.jpeg").pipe(imagemin(
    {
        progressive:true
    })).pipe(imagemin([imageminMozjpeg({
