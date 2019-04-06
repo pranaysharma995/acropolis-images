@@ -10,12 +10,12 @@ gulp.task("jpeg",function()
 })
 gulp.task("jpeg",function()
         {
-   return gulp.src("center-of-excellence/*.jpg").pipe(imagemin(
+   return gulp.src("banner/*.jpeg").pipe(imagemin(
    {
        progressive:true
    })).pipe(imagemin([imageminMozjpeg({
        quality:80
-   })])).pipe(gulp.dest("compress/center-of-excellence/"));
+   })])).pipe(gulp.dest("compress/banner/"));
 });
 gulp.task("shristi",function()
          {
